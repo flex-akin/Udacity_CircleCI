@@ -18,7 +18,7 @@ jobs:
       - run: echo world
   build:
     docker:
-      - image: circleci/node:13.8.9
+      - image: circleci/node:13.8.0
     steps:
       - checkout
       - run:
